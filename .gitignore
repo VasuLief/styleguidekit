@@ -1,5 +1,5 @@
+.idea/
+.sass-cache/
 .DS_Store
-.idea
-.sass-cache
 node_modules/*
 src/bower_components/*

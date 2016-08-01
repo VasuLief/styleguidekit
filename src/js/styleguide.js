@@ -513,7 +513,7 @@
   if (patternName !== "all") {
     patternPath = urlHandler.getFileName(patternName);
     iFramePath  = (patternPath !== "") ? baseIframePath+patternPath+"?"+Date.now() : iFramePath;
-    document.getElementById("title").innerHTML = "Pattern Lab - "+patternName;
+    document.getElementById("title").innerHTML = "SOFORT Styleguide - "+patternName;
     history.replaceState({ "pattern": patternName }, null, null);
   }
 
